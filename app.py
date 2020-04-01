@@ -53,7 +53,7 @@ number_of_deaths = st.sidebar.slider(
 )
 
 recovered = st.sidebar.slider(
-    label="Expuestos por caso",
+    label="Casos Recuperados",
     min_value=-0,
     max_value=10,
     value=0,
